@@ -7,30 +7,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("25211356"))
+API_HASH = getenv("28e494c6c0cc076234ab3d7b66bb9299")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7836352880:AAEObCDJCHOM7CCAIOgBjsrSBdX1jLrJdks")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","The_Architect04")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Anjlnobita_i")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","AmritaMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME","Siesta_kimi_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("𝐬𝐢𝐞𝐬𝐭𝐚 ✗ ⸤ 𝐦𝐮𝐬𝐢𝐜 ⸣ ⁿᵒ ͢ᵃᵈˢ")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://anjlnobita:tCUPU9Ty1FFvLumv@cluster0.appf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002372313866))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7224419362))
+OWNER_ID = int(getenv("OWNER_ID", 6777860063))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Supporty")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/Team_Supporty")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anjlnobita")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/teenscmnity")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
