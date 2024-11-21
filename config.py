@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("25211356"))
-API_HASH = getenv("28e494c6c0cc076234ab3d7b66bb9299")
+API_ID = int(getenv("2556"))
+API_HASH = getenv("28e494c6c0cc076234d7b66bb9299")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7836352880:AAEObCDJCHOM7CCAIOgBjsrSBdX1jLrJdks")
+BOT_TOKEN = getenv("7836352880:AAEObCD7CCAIOgBjsrSBdX1jLrJdks")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Anjlnobita_i")
 # --------------------------------------------------------
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://anjlnobita:tCUPU9Ty1FFvLumv@
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002372313866))
+LOGGER_ID = int(getenv("LOGGER_ID", -100237233866))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6777860063))
+OWNER_ID = int(getenv("OWNER_ID", 677786063))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -74,9 +74,9 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", BQFtvSkAG6R5VnPftqE9BQOV2LJzOijWC9ZJ8o-Rr_2WY1bW6nRd22c5K2JS1gRo-k47j8vc9moJybFeaaGSqS25HleUKz1Z2oaHNMOBNvBAuFNyxmV7Z_SNUFfH3QDpS1wDGTamYhA_cj8-Ys2eJ88qYk7zI0tffhfcEQZ8EDkCm_3mfsZizS47EwZ1OJS4oQIAXmP0sWrU3hZ07UTlkx_ssLAvCryqB_wUV6Ad2-eh_kk0IrsQ9sB9R_y83UOAZTXNDqAtJFh6IdalYoYT_CoKXhqdLVn-ZlVq9wVYQH06s-S20gHYYZsCjUF_r6C9SNVD5Uy41M59TQmk0u9M9U5vXFZTywAAAAHJCOD2AA)
-STRING2 = getenv("STRING_SESSION2", BQFzesEAsIBP9gJMA_0ifntT7yJ-IAH-nOuWPKe5u3eOyLpl_fDysOJxNsuuxh_p_Rk3HlVSeSSFH-2XPRPzgnT-qXsECMB-YKiegcisfTL7I1StDEwTtw4XTokZRQLxr0H_vVD4SCd5cMnly1dKY8wXKsP8_vS7aSs9Ke8Zyu0t5_48snPTXTaKlDmCQricJEB2L3a_x0nRj_f5Sj68WyTrAYFhVHXrmD-ABqbssmdT_rmtA5JYXQ99GNgDh-xqjw2D_oNABD8GxjI6-D6boWQAKzjnDKVqM4Dqc8NyB700nM8674SEpAXiL1EO3Tu6wUNXU8RYc3y80VVeAyTIxnBbDXpCDgAAAAGn_jFfAA)
-STRING3 = getenv("STRING_SESSION3", BQGAsdwAhn5Du632u6d8PGwxNxHuKp33TaQqTIoBICzkABcuQBGS-6uGzMelR14vC6F0N1yrc47mVIOvL05Ies8WE4GFh8446qotl_6J-0OiAwTArmiDQE3TT-NRpIPJ4aq3SyqyLLuwbiX4HonsYeE7TGH6ZEALvt1YrlOYyV0A3k786s-e-0yVU8Mj-1-qWlQoH74-10iv60Z91ESYF8dvEJOlvWSQwXWIpp4K_Ki47xFiiwigCGEiQYlniTSZwIGrcFzOsZv8Sr6Lm6mOIsLJzqqvNEPqDWrLopucciGKMrS-ao2BvS0egmbqtWkauR8jr3YqnhVF8qrWIKYuVH9XcUpJmAAAAAB_VyXgAA)
+STRING1 = getenv("STRING_SESSION", BQFtvSkAG6R5VnPftqE92LJzOijWC9ZJ8o-Rr_2WY1bW6nRd22c5K2JS1gRo-k47j8vc9moJybFeaaGSqS25HleUKz1Z2oaHNMOBNvBAuFNyxmV7Z_SNUFfH3QDpS1wDGTamYhA_cj8-Ys2eJ88qYk7zI0tffhfcEQZ8EDkCm_3mfsZizS47EwZ1OJS4oQIAXmP0sWrU3hZ07UTlkx_ssLAvCryqB_wUV6Ad2-eh_kk0IrsQ9sB9R_y83UOAZTXNDqAtJYoYT_CoKXhqdLVn-ZlVq9wVYQH06s-S20gHYYZsCjUF_r6C9SNVD5Uy41M59TQmk0u9M9U5vXFZTywAAAAHJCOD2AA)
+STRING2 = getenv("STRING_SESSION2", BQFzesEAsIBP9gJMA_0ifntT7yJ-IAH-nOuWPKe5u3eOyLpl_fDysOJxNsuuxh_p_Rk3HlVSeSSFH-2XPRPzgnT-qXsECMB-YKiegcisfTL7I1StDEwTtw4XTokZRQLxr0H_vVD4SCd5cMnly1sP8_vS7aSs9Ke8Zyu0t5_48snPTXTaKlDmCQricJEB2L3a_x0nRj_f5Sj68WyTrAYFhVHXrmD-ABqbssmdT_rmtA5JYXQ99GNgDh-xqjw2D_oNABD8GxjI6-D6boWQAKzjnDKVqM4Dqc8NyB700nM8674SEpAXiL1EO3Tu6wUNXU8RYc3y80VVeAyTIxnBbDXpCDgAAAAGn_jFfAA)
+STRING3 = getenv("STRING_SESSION3", BQGAsdwAhn5Du632u6d8PGwxNxHuKp33TaQqTIoBICzkABcuQBGS-6uGzMelR14vC6F0N1yrc47mVIOvL05Ies8WE4GFh8446qotl_6J-0OiAwTArmiDQE3TT-NRpIPJ4aq3SyqyLLuwbiX4HonsYeE7TGH6ZEALvt1YrlOYyV0A3k786s-e-0yVU8Mj-1-qWlQoH74-10iv60Z91ESYF8dvEJOlvWSQwXWIpp4K_Ki47xFiiwigCGEiQYlniTSZwIGrcFzOsZv8Sr6LIsLJzqqvNEPqDWrLopucciGKMrS-ao2BvS0egmbqtWkauR8jr3YqnhVF8qrWIKYuVH9XcUpJmAAAAAB_VyXgAA)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
@@ -124,5 +124,4 @@ if SUPPORT_CHANNEL:
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure tha
