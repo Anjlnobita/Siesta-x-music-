@@ -1,10 +1,10 @@
 {
 
-    "name": "AmritaX Music",
+    "name": "Seistaxmusic",
 
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
 
-    "logo": "https://envs.sh/5S5.jpg",
+    "logo": "https://envs.sh/54w.jpg",
 
     "keywords": [
 
@@ -30,7 +30,7 @@
 
         "description": "Get this value from https://my.telegram.org",
 
-        "value": "",
+        "value": "25211356",
 
         "required": true
 
@@ -40,7 +40,7 @@
 
         "description": "Get this value from https://my.telegram.org",
 
-        "value": "",
+        "value": "28e494c6c0cc076234ab3d7b66bb9299",
 
         "required": true
 
@@ -50,7 +50,7 @@
 
         "description": "A Bot's token from Botfather",
 
-        "value": "",
+        "value": "7836352880:AAEObCDJCHOM7CCAIOgBjsrSBdX1jLrJdks",
 
         "required": true
 
@@ -60,7 +60,7 @@
 
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
 
-        "value": "",
+        "value": "mongodb+srv://anjlnobita:tCUPU9Ty1FFvLumv@cluster0.appf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 
         "required": true
 
@@ -70,7 +70,7 @@
 
         "description": "The user id of user whom you would like to add as OWNER.",
 
-        "value": "",
+        "value": "6777860063",
 
         "required": true
 
@@ -80,7 +80,7 @@
 
         "description": "A Pyrogram v2 String Session from Replit.",
 
-        "value": "",
+        "value": "BQFtvSkAG6R5VnPftqE9BQOV2LJzOijWC9ZJ8o-Rr_2WY1bW6nRd22c5K2JS1gRo-k47j8vc9moJybFeaaGSqS25HleUKz1Z2oaHNMOBNvBAuFNyxmV7Z_SNUFfH3QDpS1wDGTamYhA_cj8-Ys2eJ88qYk7zI0tffhfcEQZ8EDkCm_3mfsZizS47EwZ1OJS4oQIAXmP0sWrU3hZ07UTlkx_ssLAvCryqB_wUV6Ad2-eh_kk0IrsQ9sB9R_y83UOAZTXNDqAtJFh6IdalYoYT_CoKXhqdLVn-ZlVq9wVYQH06s-S20gHYYZsCjUF_r6C9SNVD5Uy41M59TQmk0u9M9U5vXFZTywAAAAHJCOD2AA",
 
         "required": true
 
@@ -110,7 +110,7 @@
 
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
 
-        "value": "",
+        "value": "-1002372313866",
 
         "required": true
 
